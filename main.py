@@ -1,3 +1,5 @@
+gunicorn --bind=0.0.0.0 --timeout 600 main:app
+    
 from flask import Flask, render_template, Response
 from camera import VideoCamera
 
