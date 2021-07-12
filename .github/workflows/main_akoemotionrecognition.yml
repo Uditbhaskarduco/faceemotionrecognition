@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'akoemotionrecognition'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_fd7b3a2433f84fcba8853bb5d0564220 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_8c17cb9663ec4c5ca7f639d03b8caf10 }}
